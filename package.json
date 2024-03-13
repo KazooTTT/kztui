@@ -1,6 +1,6 @@
 {
   "name": "@kzttools/kztui",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "description": "",
   "author": "kazoottt <yjwang.echo@gmial.com>",
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/@kzttools/kztui.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "bugs": "https://github.com/@kzttools/kztui/issues",
   "scripts": {
