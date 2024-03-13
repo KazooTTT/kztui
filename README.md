@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# @kzttools/kztui
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![bundle][bundle-src]][bundle-href]
+[![JSDocs][jsdocs-src]][jsdocs-href]
+[![License][license-src]][license-href]
 
-Currently, two official plugins are available:
+@kzttools/kztui
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## License
 
-## Expanding the ESLint configuration
+[MIT](./LICENSE) License © 2023-PRESENT [kazoottt](https://github.com/kazoottt)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<!-- Badges -->
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[npm-version-src]: https://img.shields.io/npm/v/@kzttools/kztui?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/@kzttools/kztui
+[npm-downloads-src]: https://img.shields.io/npm/dm/@kzttools/kztui?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/@kzttools/kztui
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/@kzttools/kztui?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=@kzttools/kztui
+[license-src]: https://img.shields.io/github/license/@kzttools/kztui.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/@kzttools/kztui/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
+[jsdocs-href]: https://www.jsdocs.io/package/@kzttools/kztui

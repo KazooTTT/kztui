@@ -1,15 +1,30 @@
 {
-  "name": "react-copyable-wrapper",
+  "name": "@kzttools/kztui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "",
+  "author": "kazoottt <yjwang.echo@gmial.com>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/kazoottt",
+  "homepage": "https://github.com/@kzttools/kztui#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/@kzttools/kztui.git"
+  },
+  "bugs": "https://github.com/@kzttools/kztui/issues",
   "scripts": {
     "dev": "npm run storybook",
     "build": "tsc && vite build && tsc --project tsconfig.build.json",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepublishOnly": "nr build",
+    "release": "bumpp && npm publish",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepare": "simple-git-hooks"
   },
   "dependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
@@ -32,10 +47,12 @@
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "@vitejs/plugin-react": "^4.2.1",
+    "bumpp": "^9.4.0",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-storybook": "^0.8.0",
+    "nr": "^0.1.0",
     "storybook": "^8.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.1.0",
