@@ -82,6 +82,9 @@ devDependencies:
   vite:
     specifier: ^5.1.0
     version: registry.npmmirror.com/vite@5.1.6
+  vite-plugin-libcss:
+    specifier: ^1.1.1
+    version: registry.npmmirror.com/vite-plugin-libcss@1.1.1(vite@5.1.6)
 
 packages:
 
@@ -9389,6 +9392,18 @@ packages:
     name: vary
     version: 1.1.2
     engines: {node: '>= 0.8'}
+    dev: true
+
+  registry.npmmirror.com/vite-plugin-libcss@1.1.1(vite@5.1.6):
+    resolution: {integrity: sha512-WAk6U9iYWMbcu7cdw4wACpVebZiLHMyyE9KTcBzzkTt1cnXj3a7loIoIGNblx+xMb9quPpO3iRbNTOnIFDzgmg==, tarball: https://registry.npmmirror.com/vite-plugin-libcss/-/vite-plugin-libcss-1.1.1.tgz}
+    id: registry.npmmirror.com/vite-plugin-libcss/1.1.1
+    name: vite-plugin-libcss
+    version: 1.1.1
+    peerDependencies:
+      vite: '*'
+    dependencies:
+      minimatch: registry.npmmirror.com/minimatch@9.0.3
+      vite: registry.npmmirror.com/vite@5.1.6
     dev: true
 
   registry.npmmirror.com/vite@5.1.6:
